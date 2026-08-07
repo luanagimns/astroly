@@ -3,6 +3,7 @@ import HeroNew from "./components/HeroNew";
 import PlanetExplorer from "./components/PlanetExplorer";
 import Statistics from "./components/Statistics";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -26,7 +27,9 @@ export default function App() {
           <Gallery />
         </section>
 
-        {/* Etapa seguinte irá adicionar o Footer */}
+        <section id="footer">
+          <Footer />
+        </section>
       </main>
     </div>
   );
