@@ -1,11 +1,18 @@
 import Navbar from "./components/Navbar";
+import HeroNew from "./components/HeroNew";
 
 export default function App() {
   return (
-    <div className="bg-[#050014] min-h-screen">
+    <div className="bg-[#050014]">
       <Navbar />
 
-      {/* Etapas seguintes irão adicionar Hero, PlanetExplorer, Statistics, Gallery e Footer */}
+      <main>
+        <section id="hero">
+          <HeroNew />
+        </section>
+
+        {/* Etapas seguintes irão adicionar PlanetExplorer, Statistics, Gallery e Footer */}
+      </main>
     </div>
   );
 }
