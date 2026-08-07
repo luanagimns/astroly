@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import HeroNew from "./components/HeroNew";
 import PlanetExplorer from "./components/PlanetExplorer";
+import Statistics from "./components/Statistics";
 
 export default function App() {
   return (
@@ -16,7 +17,11 @@ export default function App() {
           <PlanetExplorer />
         </section>
 
-        {/* Etapas seguintes irão adicionar Statistics, Gallery e Footer */}
+        <section id="stats">
+          <Statistics />
+        </section>
+
+        {/* Etapas seguintes irão adicionar Gallery e Footer */}
       </main>
     </div>
   );
