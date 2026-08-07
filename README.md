@@ -2,19 +2,17 @@
 
 > Explore the mysteries of the universe.
 
-Astroly é uma landing page interativa inspirada no cosmos, com animações de sistema solar, explorador de planetas, galeria espacial.
-
-🌐 **[astroly-gules.vercel.app](https://astroly-gules.vercel.app)**
+Astroly é uma landing page interativa inspirada no cosmos, com animações de sistema solar, explorador de planetas, estatísticas cósmicas e galeria espacial.
 
 ---
 
 ## ✨ Funcionalidades
 
 - 🪐 **Explorador de Planetas** — Informações detalhadas sobre os 8 planetas do sistema solar
+- ☀️ **Sistema Solar Animado** — Órbitas e planetas animados em CSS puro no Hero
+- 📊 **Estatísticas Cósmicas** — Contadores animados com curiosidades sobre o universo
 - 🌌 **Galeria Cósmica** — Imagens de nebulosas, buracos negros, supernovas e mais
-- ☀️ **Sistema Solar Animado** — Órbitas e planetas animados em CSS puro
 - 👨‍🚀 **Astronauta & Foguete** — Ilustrações SVG customizadas
-- 🔐 **Autenticação** — Cadastro e login com confirmação de e-mail via Supabase
 - 📱 **Responsivo** — Layout adaptado para mobile, tablet e desktop
 
 ---
@@ -28,7 +26,6 @@ Astroly é uma landing page interativa inspirada no cosmos, com animações de s
 | [Vite](https://vitejs.dev/) | Bundler |
 | [Tailwind CSS](https://tailwindcss.com/) | Estilização |
 | [Lucide React](https://lucide.dev/) | Ícones |
-| [Vercel](https://vercel.com/) | Deploy |
 
 ---
 
@@ -37,18 +34,18 @@ Astroly é uma landing page interativa inspirada no cosmos, com animações de s
 ```
 astroly/
 ├── public/
-│   └── img/              # Imagens da galeria
+│   ├── icon.png
+│   └── img/                  # Imagens da galeria
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Orbit.tsx
-│   │   ├── PlanetExplorer.tsx
-│   │   ├── Gallery.tsx
-│   │   ├── About.tsx
-│   │   ├── Footer.tsx
+│   │   ├── HeroNew.tsx
 │   │   ├── Astronaut.tsx
-│   │   └── Rocket.tsx
+│   │   ├── Rocket.tsx
+│   │   ├── PlanetExplorer.tsx
+│   │   ├── Statistics.tsx
+│   │   ├── Gallery.tsx
+│   │   └── Footer.tsx
 │   ├── App.tsx
 │   └── main.tsx
 ├── index.html
@@ -61,7 +58,7 @@ astroly/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/astroly.git
+git clone https://github.com/luanagimns/astroly.git
 
 # Entre na pasta
 cd astroly
@@ -79,6 +76,6 @@ Acesse `http://localhost:5173` no navegador.
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT.
 
 ---
