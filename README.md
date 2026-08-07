@@ -4,6 +4,8 @@
 
 Astroly é uma landing page interativa inspirada no cosmos, com animações de sistema solar, explorador de planetas, estatísticas cósmicas e galeria espacial.
 
+🌐 **[astroly-peach.vercel.app](https://astroly-peach.vercel.app)**
+
 ---
 
 ## ✨ Funcionalidades
@@ -26,6 +28,7 @@ Astroly é uma landing page interativa inspirada no cosmos, com animações de s
 | [Vite](https://vitejs.dev/) | Bundler |
 | [Tailwind CSS](https://tailwindcss.com/) | Estilização |
 | [Lucide React](https://lucide.dev/) | Ícones |
+| [Vercel](https://vercel.com/) | Deploy |
 
 ---
 
